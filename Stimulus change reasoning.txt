@@ -1,0 +1,6 @@
+We changed Set 1, stimulus 064 (football goal post) to a banjo since American football goal posts are not commonly known in Sweden, especially in the aged population. It was replaced by a banjo (Set 3, 115), which has the same lure bin and a similar % old score (0,4400 for goal post, 0,4286 for banjo)
+
+We changed Set 2, stimulus 061 (spider) to avoid upsetting arachnophobes. It was replaced by a duster (Set 3, 089), which has the same lure bin and the exact same % old score (0,1667). 
+
+We changed Set 1, stimulus 119 (chalk) since it contained a lot of English text. It was replaced by a trampoline (Set 3, 026), which has the same lure bin and a similar % old score (0,7500 for chalk, 0.7381 for trampoline). Not that it matters since this is only shown in the "new" condition. 
+
