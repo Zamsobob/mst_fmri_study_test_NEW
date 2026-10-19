@@ -1,23 +1,29 @@
-This is the repository for the MST study-test phase which will be performed in the fMRI machine. 
+This is the repository for the MST study-test phase which will be performed in the fMRI machine.
 
-Folder Set_1 and Set_2 contain the images that will be "studied" by as well as the foils and lures that will be shown in MST_test1 and MST_test2. 
-Folder Set_4 contains images for the testing phase (MST_study_fmri_practice.py).
+Folder Set_1 and Set_2 contain the images that will be studied, as well as the foils and lures that will be shown during the test phase.
 
-The "data" folder contains save-data from MST_study_fmri.py 
+Folder Set_4 contains images used for the practice phases.
 
-MST_practice_stimuli.xlsx contain the paths to the practice-stimuli images (Set_4). 
+The "data" folder contains saved data from the MST scripts.
 
-MST_stimuli_final.xlsx contain the paths to the stimuli used by MST_study_fmri.py
+MST_practice_stimuli.xlsx contains the paths to the practice-stimuli images in Set_4.
 
-MST_stimuli_lurebins2345.xlsx contains the lure-bins (i.e. difficulty of the lures, 1 being the hardest) for the trial-stimuli. Lure bin 1 is excluded here since those lures are almost indistinguishable from the targets.  
+MST_stimuli.xlsx contains the stimuli used in the main MST study and test phases. Only lure bins 2–5 are used. Lure bin 1 is excluded since those lures are almost indistinguishable from the targets.
 
-MST_study_fmri.py is the actual program the participants will view while in the MRI machine. 
-    Right now the stim_dur is set to 3.0s and the fixation-cross varies from 0.5, 1.0, and 1.5s.
+Sets1_6_Rankings_Named.xlsx contains the stimulus rankings and names for Sets 1–6.
 
-MST_study_fmri_practice.py contains the practice version of the full MST_study_fmri.py, which is basically a shorter version of the full test. 
+MST_STUDY_fmri.py is the actual study-phase program the participants will view while in the MRI machine.
+    Right now the stim_dur is set to 3.0 s and the fixation cross varies between 0.5, 1.0, and 1.5 s.
 
-Stimulus change reasoning.txt is a text-document explaining why we changed some of the stimulus (arachnophobia and cultural relevance)
+MST_STUDY_fmri_practice.py contains the instructions and practice trials for the MST study phase.
 
-create_MST_stimuli.R is a script that creates the MST_stimuli_lurebins2345.xlsx file.
+MST_TEST_fmri.py is the actual test-phase program the participants will view while in the MRI machine.
+    Right now the stim_dur is set to 3.0 s and the fixation cross varies between 0.5, 1.0, and 1.5 s.
 
-fixation_cross_only.py is a program that only shows a fixation cross to be used during resting-state fMRI. 
+MST_TEST_fmri_practice.py contains the instructions and practice version of MST_TEST_fmri.py. It includes three practice trials with feedback and allows the instructions or practice trials to be repeated.
+
+Stimulus change reasoning.txt is a text document explaining why we changed some of the stimuli (arachnophobia and cultural relevance).
+
+create_MST_stimuli.R is a script used to create MST_stimuli.xlsx.
+
+fixation_cross_only.py is a program that only shows a fixation cross to be used during resting-state fMRI.
